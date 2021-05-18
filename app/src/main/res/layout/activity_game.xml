@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:id="@+id/txvMsg"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:layout_weight="1"
+
+        android:gravity="center"
+        android:text="遊戲畫面"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:layout_weight="1"
+        android:text="返回上頁" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_weight="1"
+        android:text="清除畫布" />
+
+    <tw.edu.pu.s410855443.crazyshape.HandPaint
+        android:id="@+id/handPaint"
+        android:layout_width="match_parent"
+        android:layout_height="455dp"
+        android:layout_weight="1" />
+</LinearLayout>
